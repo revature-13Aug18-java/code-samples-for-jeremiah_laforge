@@ -1,0 +1,58 @@
+<div class="container" *ngIf='this.bsButton'>
+  <br>
+  <h3>Create New Profile</h3>
+  <br>
+  <div class="col-sm-10" class="alert alert-success" *ngIf="this.userCreated">Profile successfuly created!</div>
+  <form (submit)="onSubmit()" [formGroup]="profileForm" name="profileName" #form>
+    <div class="form-group row">
+      <label for="userNameInput" class="col-sm-2 col-form-label">Username</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="userNameInput" formControlName="userName" name="userName"
+          placeholder="JohnPetersFarmer">
+        <div *ngIf="profileForm.controls.userName.invalid">Username can not be blank
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="nameInput" class="col-sm-2 col-form-label">Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="nameInput" formControlName="name" name="name" placeholder="John Peters">
+        <div *ngIf="profileForm.controls.name.invalid">Name can not be blank
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail" formControlName="email" name="email" placeholder="youKnowTheFarmer@aol.com">
+        <div class="alert alert-danger" *ngIf="profileForm.controls.email.invalid">Please enter a valid email.
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" formControlName="password" id="inputPassword" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword2" class="col-sm-2 col-form-label">Confirm Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword2" formControlName="testPassword" name="pswd"
+          placeholder="Password">
+        <div class="alert alert-danger" *ngIf="profileForm.controls.testPassword.errors?.MatchPassword">Passwords do
+          not
+          match</div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" id='bootstrap' class="btn btn-primary" [disabled]="profileForm.invalid">Create Profile</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <button class='btn btn-primary' id='html' *ngIf='this.htmlButton' (click)='this.htmlButton = false; this.bsButton = true'>Create
+    User</button>
+</div>

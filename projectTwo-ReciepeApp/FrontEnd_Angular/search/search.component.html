@@ -1,0 +1,22 @@
+<br><br>
+<section class="search-results main-content">
+  <br>
+  <div id="recipeDiv" class="container">
+    <div class="list-group">
+      <div *ngFor="let r of response; index as i">
+        <div class="d-flex w-100 justify-content-between">
+          <a href={{r.source_url}}>{{r.title}}</a>
+        </div>
+        <div class="grid-item recipe-image">
+          <img src={{r.image_url}} />
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+          <a href={{r.publisher_url}}>Publisher: {{r.publisher}}</a>
+        </div>
+        <div class="grid-item save">
+          <button class="btn btn-primary" (click)="saveRecipe(r)">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

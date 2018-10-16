@@ -1,0 +1,78 @@
+@import '../app.component.css';
+.search-results {
+  font-size: 1.3em;
+  display: grid;
+}
+
+.save a {
+  letter-width: -2px;
+}
+#recipeDiv {
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  height:400px;
+}
+
+.save a {
+  font-family: arial, sans-serif;
+  padding:7px 3px;
+  border-radius: 25px;
+  font-size: 0.7em; 
+  text-decoration: none;
+  background-color: #f78
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: 1fr 3fr 3fr 1fr 1fr;
+  grid-template-areas: "image image image image" 
+                   "index title title save"
+                   "index publisher publisher save";
+  background-color: #efffff;
+  border-radius: 8px;
+
+}
+.grid-item { 
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  grid-column-gap: 0;
+}
+.nothing {
+  grid-area:nothing;
+}
+.index {
+  grid-area: index;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.recipe-title {
+  font-weight: 400;
+  grid-area: title;
+  width: 300px;
+}
+.recipe-publisher {
+  font-weight: 300;
+  font-style: italic;
+  grid-area: publisher;
+}
+.recipe-image {
+  grid-area: image;
+}
+.grid-item img {
+  border-radius: 25px;
+  border: 3px solid #ddd;
+  height:150px;
+}
+
+.save{
+  grid-area:save;
+}
+
+a {
+  color: #000;
+}
+

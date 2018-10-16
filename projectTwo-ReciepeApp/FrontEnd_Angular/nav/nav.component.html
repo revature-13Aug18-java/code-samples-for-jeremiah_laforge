@@ -1,0 +1,37 @@
+<nav id="nav" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/home">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a [hidden]="isLoggedIn | async" class="nav-link" routerLink="/login">login or create</a>
+      </li>
+      <li class="nav-item">
+          <a *ngIf="isLoggedIn | async" class="nav-link" routerLink="/updateprofile">my profile</a>
+        </li>
+      <li class="nav-item">
+        <a *ngIf="isLoggedIn | async" class="nav-link" routerLink="/savedrecipes">saved recipes</a>
+      </li>
+      <li class="nav-item">
+        <a *ngIf="isLoggedIn | async" class="nav-link" routerLink="/logout">logout</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Chef Faves
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Earl Harlen</a>
+          <a class="dropdown-item" href="#">Tamika Flynn</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input #search class="form-control mr-sm-2" (keyup)="getSearchVal(search.value)" placeholder="get recipes by ingredients"
+        aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" (click)="showRecipe()" type="submit">Search</button>
+    </form>
+  </div>
+</nav>

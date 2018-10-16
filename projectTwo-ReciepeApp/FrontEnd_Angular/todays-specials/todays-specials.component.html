@@ -1,0 +1,8 @@
+
+<div class="row">
+  <div class="card" *ngFor="let r of response; index as i">
+     <div> <a href={{r.publisher_url}}>Publisher: {{r.publisher}}</a></div>
+    <img src={{r.image_url}} alt="Card image cap">
+    <p class="card-text"><a href={{r.source_url}}>{{r.title}}</a></p>
+  </div>
+</div>
