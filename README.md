@@ -10,13 +10,13 @@ Project Zero is a command line interface that mocks a banking app written using 
 
 Project One is a full stack reimbursement system built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and <strong>JavaSCript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
 
-Project Two is a full stack single page application developed using <strong>Angular</strong> and <strong> Bootstrap</strong> to create the client side, and a <strong>Java</strong> back end using <strong>Spring MVC</strong> to implement a <strong></strong><br>
+Project Two is a full stack single page application developed in a small team utilizing <strong>Agile</strong> principles to manage our collaboration and leveraging both <strong>Angular</strong> and <strong> Bootstrap</strong> to create the client side, and a <strong>Java</strong> back end using <strong>Spring MVC</strong> to implement a <strong>RESTful API</strong><br>
 </p>
 <p>
 Links to project 2 and 3:
-<br>
+<br><br>
 Project 2 Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
-<br>
+<br><br>
 Project 2 Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
 <br><br>
 Project 3: https://github.com/revaturelabs/rideshare-matching-service
