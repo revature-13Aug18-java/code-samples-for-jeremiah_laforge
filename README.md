@@ -1,3 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
 <h1> code-samples-for-jeremiah_laforge </h1>
 <p>
 <h3>In this repository the code that I wrote while working at revature can be viewed.</h3> 
@@ -10,14 +14,14 @@ Project Zero is a command line interface that mocks a banking app written using 
 
 Project One is a full stack reimbursement system built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and <strong>JavaSCript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
 
-Project Two is a full stack single page   built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and <strong>JavaSCript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
+Project Two is a full stack single page application developed using <strong>Angular</strong> and <strong> Bootstrap</strong> to create the client side, and a <strong>Java</strong> back end using <strong>Spring MVC</strong> to implement a <strong></strong><br>
 </p>
 <p>
 Links to project 2 and 3:
 <br>
-Project 2 Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
+<a herf="https://github.com/1808-Aug13-Java/lesoptimates.project2.backend">Project backend: 2 Java</a>
 <br>
-Project 2 Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
+<a herf="https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend">Project 2 frontend: Angular</a>
 <br><br>
-Project 3: https://github.com/revaturelabs/rideshare-matching-service
+<a herf="https://github.com/revaturelabs/rideshare-matching-service">Project 3 Matching Micro Service for Ride Force</a>
 </p>
