@@ -3,34 +3,25 @@
 
 <h1> RideForce Matching Service -jeremiah_laforge </h1>
 <p>
-This is a single page web application that was developed in a three person team. Goals were set early and trakced with a spreadsheet to help maintain communication during the development process. We determined that our site would be a place for users to obtain inspiration for cooking by searching for recipes or by viewing recipes recommended by verified Chefs. The following functionality was provided:
+RideForce is a full-stack <strong>Microservice</strong> application that was developed in a full team enviroment in which my role was team lead. The matching service provides the ability to sort users in relation to other users by comparing distance, end date of training, work start time, and a rating determined by liking or disliking an other user. Goals were trakced with Trello to manage our Agile Development process. We worked together to achieve the following goals:
 <ul>
-<h4>Anyone</h4>
 <li>
-    Search for recipes by ingredients
+   Implement testing for all lines of code - achieved 77% coverage  
 </li>
 <li>
-    View recomended recipes from Chefs
-</li>
-<h4>User</h4>
-<li>
-    Log in and log out
+    Updated Documentation using JavaDocs to create thorough code 
 </li>
 <li>
-    Search for recipe by ingredients
+    Refactor matching algorithm to match a builder design pattern
 </li>
 <li>
-    Save recipe
-</li>
-<h4>Chef</h4>
-<li>
-    Log in and log out
+    Added handling for changes made by other services
 </li>
 <li>
-    Search for recipe by ingredients
+    Added handling for new field "start time" in algorithm
 </li>
 <li>
-    Save recipe to be visable globally
+    Implemented Hystrix to manage fallback for calls to other services
 </li>
 </ul>
 </p>
@@ -45,7 +36,7 @@ DevOps: Maven, GitHub
 Backend: Java, Spring LogBack, Spring Boot, Spring Cloud Netflix, Oracle DataBase
 </li>
 <li>
-Code Quality Tools: JavaDocs, SonarLint, Spring Boot Test
+Code Quality Tools: JavaDocs, SonarLint, Spring Boot Test which uses JUnit and Data JPA Test
 </li>
 </strong>
 </ul>
