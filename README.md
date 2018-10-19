@@ -8,9 +8,11 @@ that were created or modified by me.
 <p>
 Project Zero is a command line interface that mocks a banking app written using <strong>Java</strong> connected to an <strong>Oracle DataBase</strong> using <strong>JDBC.</strong><br>
 
-Project One is a full stack reimbursement system built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and <strong>JavaSCript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
+Project One is a full stack reimbursement web site built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and <strong>JavaScript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
 
-Project Two is a full stack single page application developed in a small team utilizing <strong>Agile</strong> principles to manage our collaboration and leveraging both <strong>Angular</strong> and <strong> Bootstrap</strong> to create the client side, and a <strong>Java</strong> back end using <strong>Spring MVC</strong> to implement a <strong>RESTful API</strong><br>
+Project Two is a full stack single page application that alllows users to retrieve and saves recipes that was developed in a small team utilizing <strong>Agile</strong> principles to manage our collaboration and leveraging both <strong>Angular</strong> and <strong> Bootstrap</strong> to create the client side, and a <strong>Java</strong> back end using <strong>Spring MVC</strong> to implement a <strong>RESTful API.</strong><br>
+
+Project Three is a full stack single page application developed in a team enviroment utilizing <strong>Agile</strong> principles to manage our collaboration between teams working on different services where we leveraged <strong>Spring Boot</strong> <strong>Spring Cloud Netflix</strong> to develope and manage multiple services.<br>
 </p>
 <p>
 Links to project 2 and 3:
