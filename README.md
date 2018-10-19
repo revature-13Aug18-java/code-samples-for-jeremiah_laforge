@@ -1,6 +1,6 @@
 <h1> code-samples-for-jeremiah_laforge </h1>
 <p>
-<h3>In this repository the code that I wrote while working at revature can be viewed.</h3> 
+<h4>In this repository the code that I wrote while working at revature can be viewed.</h4> 
 Project Zero and Project One were both developed without teamwork, while Projects Two and Three <br>
 were completed in team enviroments. Due to this the second and third projects only contain files<br>
 that were created or modified by me.
@@ -17,11 +17,15 @@ that were created or modified by me.
 </ul>
 </p>
 <p>
-Links to project 2 and 3:
-<br><br>
-Project 2 Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
-<br><br>
+<h4>Links to project 2 and 3:</h4>
+<ul>
+<li>Project 2 Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
+</li>
+<li>
 Project 2 Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
-<br><br>
+</li>
+<li>
 Project 3: https://github.com/revaturelabs/rideshare-matching-service
+</li>
+</ul>
 </p>
