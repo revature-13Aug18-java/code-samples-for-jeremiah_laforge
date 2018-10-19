@@ -1,9 +1,9 @@
 <h1> code-samples-for-jeremiah_laforge </h1>
 <p>
-<h3>In this repository the code that I wrote while working at revature can be viewed.</h3> <br>
+<h3>In this repository the code that I wrote while working at revature can be viewed.</h3> 
 Project Zero and Project One were both developed without teamwork, while Projects Two and Three <br>
 were completed in team enviroments. Due to this the second and third projects only contain files<br>
-that were created or modified by me.<br>
+that were created or modified by me.
 </p>
 <p>
 Project Zero is a command line interface that mocks a banking app written using <strong>Java</strong> connected to an <strong>Oracle DataBase</strong> using <strong>JDBC.</strong><br>
