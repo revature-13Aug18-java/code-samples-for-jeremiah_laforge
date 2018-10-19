@@ -1,8 +1,11 @@
 # code-samples-for-jeremiah_laforge
-In this repository you can see the code that I worked on while training here at Revature. <br>
+In this repository the code that I wrote while working at revature can be viewed. <br> 
 Project Zero and Project One were both developed without teamwork, while Projects Two and Three <br>
 were completed in team enviroments. Due to this the second and third projects only contain files<br>
-that were created or modified by me.
+that were created or modified by me.<br>
+<br>
+Project Zero is a command line interface that mocks a banking app written using <strong>Java</strong> connected to a <strong>Oracle DataBase</strong> using <strong>JDBC.</strong><br>
+
 <br><br>
 Links to project 2 and 3:
 <br>
