@@ -1,7 +1,7 @@
 
 <h1> Reimbursement-System-jeremiah_laforge </h1>
 <p>
-This website is a model of a reimbursement system for the employees of Dark Owl Records in which the folowing functionality is available to the employees and managers:
+This website is a model of a reimbursement system for the employees of Dark Owl Records in which the following functionality is available to the employees and managers:
 <ul>
 <h4>Employee</h4>
 <li>
@@ -14,7 +14,7 @@ This website is a model of a reimbursement system for the employees of Dark Owl 
     Request a reimbursement
 </li>
 <li>
-    view pending reimbursements
+    View pending reimbursements
 </li>
 </ul>
 <ul>
