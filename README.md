@@ -4,8 +4,8 @@ Project Zero and Project One were both developed without teamwork, while Project
 were completed in team enviroments. Due to this the second and third projects only contain files<br>
 that were created or modified by me.<br>
 <br>
-Project Zero is a command line interface that mocks a banking app written using <strong>Java</strong> connected to a <strong>Oracle DataBase</strong> using <strong>JDBC.</strong><br>
-
+Project Zero is a command line interface that mocks a banking app written using <strong>Java</strong> connected to an <strong>Oracle DataBase</strong> using <strong>JDBC.</strong><br>
+Project One is a full stack reimbursement system built using <strong>HTML</strong>, and <strong> Bootstrap</strong> to create views and<strong>JavaSCript</strong> to make <strong>AJAX</strong> calls to a <strong>Java</strong> back end using <strong>Servlets</strong> to manage the requests, and <strong>JDBC</strong> to connect to an <strong>Oracle DataBase.</strong><br>
 <br><br>
 Links to project 2 and 3:
 <br>
