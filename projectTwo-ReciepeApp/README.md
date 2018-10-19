@@ -11,7 +11,6 @@ This is a single page web application that was developed in a three person team.
 <li>
     View recomended recipes from Chefs
 </li>
-<ul>
 <h4>User</h4>
 <li>
     Log in and log out
