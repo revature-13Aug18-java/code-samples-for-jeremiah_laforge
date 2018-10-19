@@ -51,3 +51,14 @@ Frontend: Angular, Node.js with Angular CLI, Bootstrap
 </strong>
 </ul>
 </p>
+
+<p>
+<h4>Links to the complete project two</h4>
+<ul>
+<li>Project two Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
+</li>
+<li>
+Project two Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
+</li>
+</ul>
+</p>
