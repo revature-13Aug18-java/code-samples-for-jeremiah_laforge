@@ -1,6 +1,6 @@
 <h1> code-samples-for-jeremiah_laforge </h1>
 <p>
-In this repository the code that I wrote while working at revature can be viewed. <br> <>
+<h3>In this repository the code that I wrote while working at revature can be viewed.</h3> <br>
 Project Zero and Project One were both developed without teamwork, while Projects Two and Three <br>
 were completed in team enviroments. Due to this the second and third projects only contain files<br>
 that were created or modified by me.<br>
