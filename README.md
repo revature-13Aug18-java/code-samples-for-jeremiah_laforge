@@ -16,16 +16,3 @@ that were created or modified by me.
 <li>Project Three is a full-stack single page application developed in a team environment utilizing <strong>Agile</strong> principles to manage our collaboration between teams working on different services where we leveraged <strong>Spring Boot</strong> <strong>Spring Cloud Netflix</strong> to develope and manage multiple services.</li>
 </ul>
 </p>
-<p>
-<h4>Links to project two and three:</h4>
-<ul>
-<li>Project two Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
-</li>
-<li>
-Project two Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
-</li>
-<li>
-Project three: https://github.com/revaturelabs/rideshare-matching-service
-</li>
-</ul>
-</p>
