@@ -1,7 +1,7 @@
 
 <h1> Mock-Banking-App-jeremiah_laforge </h1>
 <p>
-This appliation using a simple example of a banking application in which a user can create an account, log in and log out, and make withdrawals and deposits.
+This is a simple banking application in which a user can create an account, log in and log out, and make withdrawals and deposits.
 </p>
 <p>
 <h3>Technology Stack</h3>
@@ -22,7 +22,7 @@ Log4J
 JDBC
 </li>
 <li>
-Oracle DataBase
+Oracle Data Base
 </li>
 </strong>
 </ul>
