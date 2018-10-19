@@ -1,7 +1,7 @@
 
 <h1> Mock-Banking-App-jeremiah_laforge </h1>
 <p>
-This appliation using a simple example of a banking application in which a user can create an account, login and out, and make withdrawals and deposits. <br>
+This appliation using a simple example of a banking application in which a user can create an account, log in and log out, and make withdrawals and deposits.
 </p>
 <p>
 <h3>Technology Stack</h3>
