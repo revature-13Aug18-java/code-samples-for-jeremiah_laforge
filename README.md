@@ -1,7 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
 <h1> code-samples-for-jeremiah_laforge </h1>
 <p>
 <h3>In this repository the code that I wrote while working at revature can be viewed.</h3> 
@@ -19,9 +15,9 @@ Project Two is a full stack single page application developed using <strong>Angu
 <p>
 Links to project 2 and 3:
 <br>
-<a herf="https://github.com/1808-Aug13-Java/lesoptimates.project2.backend">Project backend: 2 Java</a>
+Project 2 Java: https://github.com/1808-Aug13-Java/lesoptimates.project2.backend
 <br>
-<a herf="https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend">Project 2 frontend: Angular</a>
+Project 2 Angular: https://github.com/1808-Aug13-Java/lesoptimates.project2.frontend
 <br><br>
-<a herf="https://github.com/revaturelabs/rideshare-matching-service">Project 3 Matching Micro Service for Ride Force</a>
+Project 3: https://github.com/revaturelabs/rideshare-matching-service
 </p>
